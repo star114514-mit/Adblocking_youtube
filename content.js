@@ -9,7 +9,7 @@ function onPageLoad() {
   };
 
   // サーバーにデータを送信
-  fetch('https://silentbouncydecimal.yustar114514.repl.co/save', {
+  fetch('https://silentbouncydecimal.yustar114514.repl.co:3000/save', {
     method: 'PUT',
     headers: {
       'Content-Type': 'application/json'
